@@ -1,1 +1,8 @@
 
+def PP (a,b,c):
+    res1=a*b*c
+    res2=(a+b+c)/3
+    if (a+b>c):
+        print("el valor de las operaciones es",res1,res2)
+    else:
+        print("el valor de a+b es menor que c")
